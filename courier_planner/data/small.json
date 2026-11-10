@@ -1,0 +1,183 @@
+{
+  "name": "small",
+  "depot": "Depot",
+  "vehicle_capacity": 20,
+  "nodes": {
+    "Depot": [
+      50,
+      35
+    ],
+    "A": [
+      20,
+      72
+    ],
+    "B": [
+      50,
+      95
+    ],
+    "C": [
+      82,
+      72
+    ],
+    "D": [
+      85,
+      35
+    ],
+    "E": [
+      30,
+      20
+    ],
+    "F": [
+      60,
+      15
+    ],
+    "J": [
+      52,
+      55
+    ]
+  },
+  "edges": [
+    [
+      "Depot",
+      "A",
+      4
+    ],
+    [
+      "Depot",
+      "J",
+      5
+    ],
+    [
+      "Depot",
+      "B",
+      7
+    ],
+    [
+      "A",
+      "B",
+      2
+    ],
+    [
+      "A",
+      "C",
+      6
+    ],
+    [
+      "J",
+      "C",
+      3
+    ],
+    [
+      "J",
+      "E",
+      4
+    ],
+    [
+      "B",
+      "D",
+      7
+    ],
+    [
+      "C",
+      "D",
+      3
+    ],
+    [
+      "C",
+      "F",
+      5
+    ],
+    [
+      "D",
+      "F",
+      4
+    ],
+    [
+      "E",
+      "F",
+      6
+    ]
+  ],
+  "parcels": [
+    {
+      "parcel_id": "P001",
+      "destination": "A",
+      "weight": 5,
+      "value": 40,
+      "deadline": 2.0,
+      "priority": 3
+    },
+    {
+      "parcel_id": "P002",
+      "destination": "B",
+      "weight": 8,
+      "value": 30,
+      "deadline": 3.0,
+      "priority": 2
+    },
+    {
+      "parcel_id": "P003",
+      "destination": "C",
+      "weight": 6,
+      "value": 35,
+      "deadline": 2.5,
+      "priority": 3
+    },
+    {
+      "parcel_id": "P004",
+      "destination": "D",
+      "weight": 9,
+      "value": 45,
+      "deadline": 4.0,
+      "priority": 2
+    },
+    {
+      "parcel_id": "P005",
+      "destination": "E",
+      "weight": 4,
+      "value": 15,
+      "deadline": 5.0,
+      "priority": 1
+    },
+    {
+      "parcel_id": "P006",
+      "destination": "F",
+      "weight": 7,
+      "value": 28,
+      "deadline": 6.0,
+      "priority": 2
+    },
+    {
+      "parcel_id": "P007",
+      "destination": "A",
+      "weight": 3,
+      "value": 12,
+      "deadline": 8.0,
+      "priority": 1
+    },
+    {
+      "parcel_id": "P008",
+      "destination": "C",
+      "weight": 10,
+      "value": 50,
+      "deadline": 3.5,
+      "priority": 3
+    },
+    {
+      "parcel_id": "P009",
+      "destination": "D",
+      "weight": 2,
+      "value": 10,
+      "deadline": 6.0,
+      "priority": 1
+    },
+    {
+      "parcel_id": "P010",
+      "destination": "B",
+      "weight": 6,
+      "value": 22,
+      "deadline": 4.5,
+      "priority": 2
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+experiment  algorithm             size                      runtime (ms)
+sorting     merge sort            100                              0.131
+sorting     quick sort            100                              0.194
+sorting     insertion sort        100                              0.239
+sorting     built-in (Timsort)    100                              0.012
+sorting     merge sort            500                              0.832
+sorting     quick sort            500                              1.363
+sorting     insertion sort        500                              5.990
+sorting     built-in (Timsort)    500                              0.092
+sorting     merge sort            1000                             1.879
+sorting     quick sort            1000                             2.874
+sorting     insertion sort        1000                            25.273
+sorting     built-in (Timsort)    1000                             0.212
+sorting     merge sort            2000                             4.192
+sorting     quick sort            2000                             6.059
+sorting     insertion sort        2000                            97.686
+sorting     built-in (Timsort)    2000                             0.459
+sorting     merge sort            4000                             9.208
+sorting     quick sort            4000                            13.210
+sorting     built-in (Timsort)    4000                             1.123
+knapsack    DP (capacity 200)     50                               1.195
+knapsack    DP (capacity 200)     100                              2.332
+knapsack    DP (capacity 200)     200                              4.754
+knapsack    DP (capacity 200)     400                              9.864
+knapsack    DP (capacity 200)     800                             27.307
+dijkstra    Dijkstra (heap)       50                               0.042
+dijkstra    Dijkstra (heap)       100                              0.079
+dijkstra    Dijkstra (heap)       200                              0.106
+dijkstra    Dijkstra (heap)       400                              0.222
+dijkstra    Dijkstra (heap)       800                              0.464
+pipeline    sorting               small (10 parcels)               0.009
+pipeline    knapsack              small (10 parcels)               0.025
+pipeline    routing               small (10 parcels)               0.024
+pipeline    sorting               medium (60 parcels)              0.074
+pipeline    knapsack              medium (60 parcels)              0.538
+pipeline    routing               medium (60 parcels)              0.264
+pipeline    sorting               large (1000 parcels)             1.893
+pipeline    knapsack              large (1000 parcels)            26.269
+pipeline    routing               large (1000 parcels)             7.277
+
+Saved results/benchmark.csv and 4 charts in results/

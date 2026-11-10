@@ -1,0 +1,39 @@
+experiment,algorithm,size,seconds
+sorting,merge sort,100,0.00013104299998190072
+sorting,quick sort,100,0.00019400700000460347
+sorting,insertion sort,100,0.00023938800001133131
+sorting,built-in (Timsort),100,1.2276999996174709e-05
+sorting,merge sort,500,0.0008324599999980364
+sorting,quick sort,500,0.0013626649999878282
+sorting,insertion sort,500,0.0059897280000029696
+sorting,built-in (Timsort),500,9.169400001951544e-05
+sorting,merge sort,1000,0.0018792239999925187
+sorting,quick sort,1000,0.0028744690000053197
+sorting,insertion sort,1000,0.025273207999987335
+sorting,built-in (Timsort),1000,0.0002124489999744128
+sorting,merge sort,2000,0.004192466999995759
+sorting,quick sort,2000,0.006059138000011899
+sorting,insertion sort,2000,0.0976863539999897
+sorting,built-in (Timsort),2000,0.00045870299999251074
+sorting,merge sort,4000,0.009208446999991793
+sorting,quick sort,4000,0.013210397999984025
+sorting,built-in (Timsort),4000,0.0011225110000054883
+knapsack,DP (capacity 200),50,0.0011945969999942463
+knapsack,DP (capacity 200),100,0.002331804999982978
+knapsack,DP (capacity 200),200,0.004754091000023664
+knapsack,DP (capacity 200),400,0.009863658999989866
+knapsack,DP (capacity 200),800,0.027307063999984393
+dijkstra,Dijkstra (heap),50,4.2088000014928184e-05
+dijkstra,Dijkstra (heap),100,7.93749999843385e-05
+dijkstra,Dijkstra (heap),200,0.00010611199999743803
+dijkstra,Dijkstra (heap),400,0.00022237500002120214
+dijkstra,Dijkstra (heap),800,0.00046437099999252496
+pipeline,sorting,small (10 parcels),8.669000010286254e-06
+pipeline,knapsack,small (10 parcels),2.4593999995659033e-05
+pipeline,routing,small (10 parcels),2.3961000010785938e-05
+pipeline,sorting,medium (60 parcels),7.42729999956282e-05
+pipeline,knapsack,medium (60 parcels),0.0005379199999993034
+pipeline,routing,medium (60 parcels),0.0002635440000062772
+pipeline,sorting,large (1000 parcels),0.00189322500000344
+pipeline,knapsack,large (1000 parcels),0.026269439999992983
+pipeline,routing,large (1000 parcels),0.007276868999980479

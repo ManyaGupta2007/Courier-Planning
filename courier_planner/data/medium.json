@@ -1,0 +1,856 @@
+{
+  "name": "medium",
+  "depot": "Depot",
+  "vehicle_capacity": 80,
+  "nodes": {
+    "Depot": [
+      13.4,
+      84.7
+    ],
+    "N001": [
+      76.4,
+      25.5
+    ],
+    "N002": [
+      49.5,
+      44.9
+    ],
+    "N003": [
+      65.2,
+      78.9
+    ],
+    "N004": [
+      9.4,
+      2.8
+    ],
+    "N005": [
+      83.6,
+      43.3
+    ],
+    "N006": [
+      76.2,
+      0.2
+    ],
+    "N007": [
+      44.5,
+      72.2
+    ],
+    "N008": [
+      22.9,
+      94.5
+    ],
+    "N009": [
+      90.1,
+      3.1
+    ],
+    "N010": [
+      2.5,
+      54.1
+    ],
+    "N011": [
+      93.9,
+      38.1
+    ],
+    "N012": [
+      21.7,
+      42.2
+    ],
+    "N013": [
+      2.9,
+      22.2
+    ],
+    "N014": [
+      43.8,
+      49.6
+    ],
+    "N015": [
+      23.3,
+      23.1
+    ],
+    "N016": [
+      21.9,
+      46.0
+    ],
+    "N017": [
+      29.0,
+      2.1
+    ],
+    "N018": [
+      83.8,
+      55.6
+    ],
+    "N019": [
+      64.2,
+      18.6
+    ],
+    "N020": [
+      99.3,
+      86.0
+    ],
+    "N021": [
+      12.1,
+      33.3
+    ],
+    "N022": [
+      72.1,
+      71.1
+    ],
+    "N023": [
+      93.6,
+      42.2
+    ],
+    "N024": [
+      83.0,
+      67.0
+    ],
+    "N025": [
+      30.3,
+      58.8
+    ],
+    "N026": [
+      88.2,
+      84.6
+    ],
+    "N027": [
+      50.5,
+      58.9
+    ],
+    "N028": [
+      3.5,
+      24.3
+    ],
+    "N029": [
+      79.7,
+      41.4
+    ]
+  },
+  "edges": [
+    [
+      "Depot",
+      "N001",
+      86.5
+    ],
+    [
+      "N001",
+      "N002",
+      33.2
+    ],
+    [
+      "N002",
+      "N003",
+      37.4
+    ],
+    [
+      "N002",
+      "N004",
+      58.1
+    ],
+    [
+      "N001",
+      "N005",
+      19.2
+    ],
+    [
+      "N001",
+      "N006",
+      25.3
+    ],
+    [
+      "N003",
+      "N007",
+      21.8
+    ],
+    [
+      "Depot",
+      "N008",
+      13.6
+    ],
+    [
+      "N006",
+      "N009",
+      14.2
+    ],
+    [
+      "Depot",
+      "N010",
+      32.5
+    ],
+    [
+      "N005",
+      "N011",
+      11.5
+    ],
+    [
+      "N010",
+      "N012",
+      22.6
+    ],
+    [
+      "N004",
+      "N013",
+      20.5
+    ],
+    [
+      "N002",
+      "N014",
+      7.4
+    ],
+    [
+      "N012",
+      "N015",
+      19.2
+    ],
+    [
+      "N012",
+      "N016",
+      3.8
+    ],
+    [
+      "N004",
+      "N017",
+      19.6
+    ],
+    [
+      "N005",
+      "N018",
+      12.3
+    ],
+    [
+      "N001",
+      "N019",
+      14.0
+    ],
+    [
+      "N018",
+      "N020",
+      34.1
+    ],
+    [
+      "N012",
+      "N021",
+      13.1
+    ],
+    [
+      "N003",
+      "N022",
+      10.4
+    ],
+    [
+      "N011",
+      "N023",
+      4.1
+    ],
+    [
+      "N018",
+      "N024",
+      11.4
+    ],
+    [
+      "N016",
+      "N025",
+      15.3
+    ],
+    [
+      "N020",
+      "N026",
+      11.2
+    ],
+    [
+      "N014",
+      "N027",
+      11.5
+    ],
+    [
+      "N013",
+      "N028",
+      2.2
+    ],
+    [
+      "N005",
+      "N029",
+      4.3
+    ],
+    [
+      "Depot",
+      "N025",
+      30.9
+    ],
+    [
+      "N001",
+      "N029",
+      16.2
+    ],
+    [
+      "N002",
+      "N027",
+      14.0
+    ],
+    [
+      "N003",
+      "N024",
+      21.4
+    ],
+    [
+      "N005",
+      "N023",
+      10.1
+    ],
+    [
+      "N006",
+      "N019",
+      22.0
+    ],
+    [
+      "N007",
+      "N027",
+      14.6
+    ],
+    [
+      "N007",
+      "N025",
+      19.5
+    ],
+    [
+      "N007",
+      "N008",
+      31.0
+    ],
+    [
+      "N001",
+      "N009",
+      26.3
+    ],
+    [
+      "N010",
+      "N016",
+      21.0
+    ],
+    [
+      "N013",
+      "N021",
+      14.4
+    ],
+    [
+      "N015",
+      "N021",
+      15.1
+    ],
+    [
+      "N015",
+      "N017",
+      21.8
+    ],
+    [
+      "N020",
+      "N024",
+      25.0
+    ],
+    [
+      "N021",
+      "N028",
+      12.4
+    ],
+    [
+      "N022",
+      "N024",
+      11.6
+    ],
+    [
+      "N014",
+      "N025",
+      16.3
+    ],
+    [
+      "N024",
+      "N026",
+      18.4
+    ],
+    [
+      "N023",
+      "N029",
+      13.9
+    ]
+  ],
+  "parcels": [
+    {
+      "parcel_id": "P0001",
+      "destination": "N006",
+      "weight": 6,
+      "value": 80,
+      "deadline": 10.7,
+      "priority": 3
+    },
+    {
+      "parcel_id": "P0002",
+      "destination": "N024",
+      "weight": 6,
+      "value": 21,
+      "deadline": 5.8,
+      "priority": 3
+    },
+    {
+      "parcel_id": "P0003",
+      "destination": "N004",
+      "weight": 13,
+      "value": 30,
+      "deadline": 6.7,
+      "priority": 2
+    },
+    {
+      "parcel_id": "P0004",
+      "destination": "N012",
+      "weight": 8,
+      "value": 13,
+      "deadline": 6.2,
+      "priority": 2
+    },
+    {
+      "parcel_id": "P0005",
+      "destination": "N023",
+      "weight": 14,
+      "value": 88,
+      "deadline": 7.5,
+      "priority": 2
+    },
+    {
+      "parcel_id": "P0006",
+      "destination": "N021",
+      "weight": 3,
+      "value": 31,
+      "deadline": 6.5,
+      "priority": 1
+    },
+    {
+      "parcel_id": "P0007",
+      "destination": "N025",
+      "weight": 4,
+      "value": 79,
+      "deadline": 11.1,
+      "priority": 3
+    },
+    {
+      "parcel_id": "P0008",
+      "destination": "N008",
+      "weight": 7,
+      "value": 75,
+      "deadline": 4.8,
+      "priority": 3
+    },
+    {
+      "parcel_id": "P0009",
+      "destination": "N012",
+      "weight": 8,
+      "value": 44,
+      "deadline": 8.3,
+      "priority": 3
+    },
+    {
+      "parcel_id": "P0010",
+      "destination": "N024",
+      "weight": 1,
+      "value": 59,
+      "deadline": 9.6,
+      "priority": 3
+    },
+    {
+      "parcel_id": "P0011",
+      "destination": "N017",
+      "weight": 13,
+      "value": 26,
+      "deadline": 6.7,
+      "priority": 3
+    },
+    {
+      "parcel_id": "P0012",
+      "destination": "N007",
+      "weight": 7,
+      "value": 17,
+      "deadline": 6.3,
+      "priority": 2
+    },
+    {
+      "parcel_id": "P0013",
+      "destination": "N019",
+      "weight": 9,
+      "value": 35,
+      "deadline": 11.4,
+      "priority": 2
+    },
+    {
+      "parcel_id": "P0014",
+      "destination": "N016",
+      "weight": 14,
+      "value": 55,
+      "deadline": 5.6,
+      "priority": 1
+    },
+    {
+      "parcel_id": "P0015",
+      "destination": "N018",
+      "weight": 9,
+      "value": 89,
+      "deadline": 9.7,
+      "priority": 2
+    },
+    {
+      "parcel_id": "P0016",
+      "destination": "N015",
+      "weight": 10,
+      "value": 13,
+      "deadline": 9.9,
+      "priority": 3
+    },
+    {
+      "parcel_id": "P0017",
+      "destination": "N006",
+      "weight": 9,
+      "value": 84,
+      "deadline": 3.0,
+      "priority": 1
+    },
+    {
+      "parcel_id": "P0018",
+      "destination": "N026",
+      "weight": 9,
+      "value": 42,
+      "deadline": 1.4,
+      "priority": 3
+    },
+    {
+      "parcel_id": "P0019",
+      "destination": "N003",
+      "weight": 2,
+      "value": 12,
+      "deadline": 6.0,
+      "priority": 2
+    },
+    {
+      "parcel_id": "P0020",
+      "destination": "N008",
+      "weight": 5,
+      "value": 24,
+      "deadline": 9.8,
+      "priority": 1
+    },
+    {
+      "parcel_id": "P0021",
+      "destination": "N012",
+      "weight": 5,
+      "value": 18,
+      "deadline": 2.8,
+      "priority": 2
+    },
+    {
+      "parcel_id": "P0022",
+      "destination": "N017",
+      "weight": 3,
+      "value": 94,
+      "deadline": 4.0,
+      "priority": 3
+    },
+    {
+      "parcel_id": "P0023",
+      "destination": "N010",
+      "weight": 8,
+      "value": 99,
+      "deadline": 4.5,
+      "priority": 2
+    },
+    {
+      "parcel_id": "P0024",
+      "destination": "N004",
+      "weight": 1,
+      "value": 49,
+      "deadline": 5.3,
+      "priority": 2
+    },
+    {
+      "parcel_id": "P0025",
+      "destination": "N026",
+      "weight": 4,
+      "value": 43,
+      "deadline": 2.2,
+      "priority": 3
+    },
+    {
+      "parcel_id": "P0026",
+      "destination": "N017",
+      "weight": 4,
+      "value": 87,
+      "deadline": 5.7,
+      "priority": 1
+    },
+    {
+      "parcel_id": "P0027",
+      "destination": "N008",
+      "weight": 1,
+      "value": 60,
+      "deadline": 2.6,
+      "priority": 3
+    },
+    {
+      "parcel_id": "P0028",
+      "destination": "N006",
+      "weight": 8,
+      "value": 100,
+      "deadline": 6.6,
+      "priority": 2
+    },
+    {
+      "parcel_id": "P0029",
+      "destination": "N018",
+      "weight": 14,
+      "value": 38,
+      "deadline": 11.7,
+      "priority": 3
+    },
+    {
+      "parcel_id": "P0030",
+      "destination": "N026",
+      "weight": 12,
+      "value": 76,
+      "deadline": 6.0,
+      "priority": 3
+    },
+    {
+      "parcel_id": "P0031",
+      "destination": "N021",
+      "weight": 1,
+      "value": 60,
+      "deadline": 8.4,
+      "priority": 2
+    },
+    {
+      "parcel_id": "P0032",
+      "destination": "N022",
+      "weight": 11,
+      "value": 64,
+      "deadline": 1.6,
+      "priority": 2
+    },
+    {
+      "parcel_id": "P0033",
+      "destination": "N005",
+      "weight": 4,
+      "value": 16,
+      "deadline": 4.4,
+      "priority": 1
+    },
+    {
+      "parcel_id": "P0034",
+      "destination": "N010",
+      "weight": 15,
+      "value": 48,
+      "deadline": 9.2,
+      "priority": 2
+    },
+    {
+      "parcel_id": "P0035",
+      "destination": "N019",
+      "weight": 5,
+      "value": 26,
+      "deadline": 1.1,
+      "priority": 1
+    },
+    {
+      "parcel_id": "P0036",
+      "destination": "N019",
+      "weight": 14,
+      "value": 37,
+      "deadline": 11.6,
+      "priority": 3
+    },
+    {
+      "parcel_id": "P0037",
+      "destination": "N015",
+      "weight": 3,
+      "value": 100,
+      "deadline": 7.9,
+      "priority": 1
+    },
+    {
+      "parcel_id": "P0038",
+      "destination": "N013",
+      "weight": 4,
+      "value": 54,
+      "deadline": 2.1,
+      "priority": 3
+    },
+    {
+      "parcel_id": "P0039",
+      "destination": "N022",
+      "weight": 15,
+      "value": 65,
+      "deadline": 7.5,
+      "priority": 2
+    },
+    {
+      "parcel_id": "P0040",
+      "destination": "N004",
+      "weight": 11,
+      "value": 59,
+      "deadline": 4.3,
+      "priority": 2
+    },
+    {
+      "parcel_id": "P0041",
+      "destination": "N001",
+      "weight": 6,
+      "value": 88,
+      "deadline": 10.6,
+      "priority": 2
+    },
+    {
+      "parcel_id": "P0042",
+      "destination": "N001",
+      "weight": 3,
+      "value": 35,
+      "deadline": 10.4,
+      "priority": 3
+    },
+    {
+      "parcel_id": "P0043",
+      "destination": "N026",
+      "weight": 3,
+      "value": 53,
+      "deadline": 5.7,
+      "priority": 2
+    },
+    {
+      "parcel_id": "P0044",
+      "destination": "N022",
+      "weight": 2,
+      "value": 58,
+      "deadline": 11.3,
+      "priority": 2
+    },
+    {
+      "parcel_id": "P0045",
+      "destination": "N029",
+      "weight": 14,
+      "value": 97,
+      "deadline": 6.9,
+      "priority": 3
+    },
+    {
+      "parcel_id": "P0046",
+      "destination": "N008",
+      "weight": 2,
+      "value": 15,
+      "deadline": 1.9,
+      "priority": 1
+    },
+    {
+      "parcel_id": "P0047",
+      "destination": "N006",
+      "weight": 15,
+      "value": 78,
+      "deadline": 3.3,
+      "priority": 2
+    },
+    {
+      "parcel_id": "P0048",
+      "destination": "N020",
+      "weight": 9,
+      "value": 42,
+      "deadline": 5.0,
+      "priority": 2
+    },
+    {
+      "parcel_id": "P0049",
+      "destination": "N004",
+      "weight": 5,
+      "value": 40,
+      "deadline": 10.5,
+      "priority": 3
+    },
+    {
+      "parcel_id": "P0050",
+      "destination": "N025",
+      "weight": 12,
+      "value": 72,
+      "deadline": 2.5,
+      "priority": 3
+    },
+    {
+      "parcel_id": "P0051",
+      "destination": "N025",
+      "weight": 2,
+      "value": 51,
+      "deadline": 1.4,
+      "priority": 1
+    },
+    {
+      "parcel_id": "P0052",
+      "destination": "N013",
+      "weight": 14,
+      "value": 28,
+      "deadline": 10.1,
+      "priority": 2
+    },
+    {
+      "parcel_id": "P0053",
+      "destination": "N004",
+      "weight": 10,
+      "value": 85,
+      "deadline": 9.6,
+      "priority": 2
+    },
+    {
+      "parcel_id": "P0054",
+      "destination": "N003",
+      "weight": 10,
+      "value": 80,
+      "deadline": 3.5,
+      "priority": 1
+    },
+    {
+      "parcel_id": "P0055",
+      "destination": "N009",
+      "weight": 6,
+      "value": 47,
+      "deadline": 7.2,
+      "priority": 1
+    },
+    {
+      "parcel_id": "P0056",
+      "destination": "N015",
+      "weight": 15,
+      "value": 45,
+      "deadline": 2.2,
+      "priority": 1
+    },
+    {
+      "parcel_id": "P0057",
+      "destination": "N027",
+      "weight": 5,
+      "value": 11,
+      "deadline": 7.8,
+      "priority": 1
+    },
+    {
+      "parcel_id": "P0058",
+      "destination": "N003",
+      "weight": 7,
+      "value": 24,
+      "deadline": 10.1,
+      "priority": 1
+    },
+    {
+      "parcel_id": "P0059",
+      "destination": "N007",
+      "weight": 4,
+      "value": 85,
+      "deadline": 5.6,
+      "priority": 1
+    },
+    {
+      "parcel_id": "P0060",
+      "destination": "N015",
+      "weight": 3,
+      "value": 97,
+      "deadline": 3.7,
+      "priority": 3
+    }
+  ]
+}
